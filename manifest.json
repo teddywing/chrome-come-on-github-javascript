@@ -1,0 +1,12 @@
+{
+	"manifest_version": 2,
+
+	"name": "Come on GitHub JavaScript",
+	"description": "Run GitHub JavaScript on old browsers.",
+	"version": "0.0.1",
+
+	"permissions": [
+		"webRequest",
+		"https://*.github.com/"
+	]
+}
