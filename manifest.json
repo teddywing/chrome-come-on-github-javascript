@@ -7,6 +7,11 @@
 
 	"permissions": [
 		"webRequest",
-		"https://*.github.com/"
-	]
+		"webRequestBlocking",
+		"https://github.com/*"
+	],
+
+	"background": {
+		"scripts": ["change-user-agent.js"]
+	}
 }
